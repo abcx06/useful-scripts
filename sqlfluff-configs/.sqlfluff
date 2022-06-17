@@ -1,0 +1,15 @@
+[sqlfluff]
+dialect = snowflake
+exclude_rules = L031, L011
+
+[sqlfluff:rules]
+tab_space_size = 2
+
+[sqlfluff:rules:L010]
+capitalisation_policy = upper
+
+[sqlfluff:rules:L019]
+comma_style = leading
+
+[sqlfluff:rules:L052]
+multiline_newline = True
